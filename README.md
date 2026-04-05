@@ -4,7 +4,12 @@
 
 ---
 
-## 📋 Table of Contents
+## PROJECT CREATION VIDEO: 
+[GDrive Demo Link](https://drive.google.com/drive/folders/1ry1C0cEd_Zujrrsgp--yiY3bTIcuaRhc)
+
+---
+
+## Table of Contents
 
 - [Abstract](#-abstract)
 - [Introduction](#-introduction)
@@ -21,21 +26,21 @@
 
 ---
 
-## 📝 Abstract
+## Abstract
 
 Agriculture remains one of the most critical sectors globally, yet many businesses still rely on manual systems for managing operations. This project proposes a **cloud-based solution using Salesforce** to streamline agricultural order management for AgriEdge Or-Mange Ltd.
 
 The system integrates:
-- 👨‍🌾 Farmer data management
-- 📦 Product inventory tracking
-- 🛒 Order processing
-- 🚚 Delivery tracking
+- Farmer data management
+- Product inventory tracking
+- Order processing
+- Delivery tracking
 
 By implementing automation tools such as **Apex Classes**, **Triggers**, and **Flows**, the solution improves efficiency, reduces operational errors, and ensures real-time decision-making capabilities.
 
 ---
 
-## 🌍 Introduction
+## Introduction
 
 Agriculture plays a crucial role in sustaining economies, especially in developing countries. However, traditional agricultural businesses face several challenges:
 
@@ -50,26 +55,26 @@ Agriculture plays a crucial role in sustaining economies, especially in developi
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
-- ✅ Design a **centralized system** for agricultural order management
-- ✅ **Automate business processes** using Salesforce tools
-- ✅ Improve **data accuracy** and reduce redundancy
-- ✅ Enhance **customer (farmer) satisfaction**
-- ✅ Enable **real-time monitoring** and reporting
-- ✅ Ensure **data security** and controlled access
+- Design a **centralized system** for agricultural order management
+- **Automate business processes** using Salesforce tools
+- Improve **data accuracy** and reduce redundancy
+- Enhance **customer (farmer) satisfaction**
+- Enable **real-time monitoring** and reporting
+- Ensure **data security** and controlled access
 
 ---
 
-## 👥 User Scenario
+## User Scenario
 
 ### Actors Involved
 
 | Actor | Role |
 |-------|------|
-| 👨‍🌾 **Farmers** | Request agricultural products |
-| 🧑‍💼 **Sales Agents** | Create and manage orders |
-| 🛡️ **Admin / Manager** | Verify, process, and oversee operations |
+| **Farmers** | Request agricultural products |
+| **Sales Agents** | Create and manage orders |
+| **Admin / Manager** | Verify, process, and oversee operations |
 
 ### Workflow
 
@@ -82,7 +87,7 @@ This structured workflow ensures **transparency and efficiency** across all oper
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system follows a **three-tier architecture**:
 
@@ -106,14 +111,14 @@ The system follows a **three-tier architecture**:
 
 | Benefit | Description |
 |---------|-------------|
-| ☁️ Scalability | Grows with business needs |
-| 🔒 Security | Enterprise-grade cloud security |
-| ⚡ High Availability | 99.9% uptime SLA |
-| 🔗 Easy Integration | Connect with third-party systems |
+| Scalability | Grows with business needs |
+| Security | Enterprise-grade cloud security |
+| High Availability | 99.9% uptime SLA |
+| Easy Integration | Connect with third-party systems |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Salesforce Developer Account Setup
 
@@ -123,20 +128,20 @@ The system follows a **three-tier architecture**:
 4. Set a secure password and security question
 5. Login to your **Salesforce Developer Dashboard**
 
-> ✅ This provides access to all development tools required for this project.
+> This provides access to all development tools required for this project.
 
 ---
 
-## 🗄️ Data Management
+## Data Management
 
 ### Custom Objects
 
 | Object | Purpose | Key Fields |
 |--------|---------|------------|
-| 🧑 **Farmer** | Stores farmer details | Name, Contact, Location |
-| 📦 **Product** | Stores product information | Product Name, Price, Stock |
-| 🛒 **Order** | Records order transactions | Order Date, Quantity, Total Amount |
-| 🚚 **Delivery** | Tracks delivery status | Delivery Date, Status |
+| **Farmer** | Stores farmer details | Name, Contact, Location |
+| **Product** | Stores product information | Product Name, Price, Stock |
+| **Order** | Records order transactions | Order Date, Quantity, Total Amount |
+| **Delivery** | Tracks delivery status | Delivery Date, Status |
 
 ### Field Types Reference
 
@@ -164,7 +169,7 @@ The system follows a **three-tier architecture**:
 
 ---
 
-## 🔐 Data Security
+## Data Security
 
 ### Role Hierarchy
 
@@ -190,13 +195,13 @@ The system follows a **three-tier architecture**:
 
 ### Field-Level Security
 
-- 🔒 Restrict editing of **price fields** for Sales Agents
-- 🙈 Hide **confidential data** from unauthorized roles
-- 👁️ Control **field visibility** per profile
+- Restrict editing of **price fields** for Sales Agents
+- Hide **confidential data** from unauthorized roles
+- Control **field visibility** per profile
 
 ---
 
-## ⚙️ Automation & Apex Development
+## Automation & Apex Development
 
 ### Automation Tools Overview
 
@@ -512,14 +517,14 @@ trigger OrderPaymentStatusTriggers on AgriEdge_Order__c (after update) {
 
 ---
 
-## 🧪 Testing
+## Testing
 
 | Test Type | Scope | Goal |
 |-----------|-------|------|
 | **Unit Testing** | Individual Apex methods | Validate logic in isolation |
 | **System Testing** | End-to-end workflow | Ensure complete integration |
 
-> ⚠️ Salesforce requires **≥75% code coverage** for production deployments.
+> Salesforce requires **≥75% code coverage** for production deployments.
 
 **Testing Best Practices:**
 - Write `@isTest` annotated test classes for all Apex code
@@ -528,36 +533,36 @@ trigger OrderPaymentStatusTriggers on AgriEdge_Order__c (after update) {
 
 ---
 
-## ✅ Advantages & Limitations
+## Advantages & Limitations
 
 ### Advantages
 
 | Benefit | Description |
 |---------|-------------|
-| ⚡ Improved Efficiency | Automated workflows reduce manual effort |
-| 🎯 Accuracy | Reduced human errors via automation |
-| 📡 Real-Time Tracking | Live order and delivery monitoring |
-| 😊 Better Service | Faster response to farmer requests |
-| 📊 Centralized Data | Single source of truth for all operations |
+| Improved Efficiency | Automated workflows reduce manual effort |
+| Accuracy | Reduced human errors via automation |
+| Real-Time Tracking | Live order and delivery monitoring |
+| Better Service | Faster response to farmer requests |
+| Centralized Data | Single source of truth for all operations |
 
 ### Limitations
 
 | Limitation | Notes |
 |------------|-------|
-| 🌐 Internet Dependency | Requires stable connectivity |
-| 📈 Learning Curve | Initial onboarding time needed |
-| 💰 Implementation Cost | Salesforce licensing fees apply |
+| Internet Dependency | Requires stable connectivity |
+| Learning Curve | Initial onboarding time needed |
+| Implementation Cost | Salesforce licensing fees apply |
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 The **AgriEdge Or-Mange Ltd** project demonstrates the transformative potential of Salesforce CRM in modernizing agricultural operations. By automating workflows and centralizing data, the system delivers:
 
-- 📈 Enhanced business performance
-- 🌾 Faster, more reliable services for farmers
-- 🔒 Secure, role-based data management
-- 🤖 Intelligent automation via Apex & Flows
+- Enhanced business performance
+- Faster, more reliable services for farmers
+- Secure, role-based data management
+- Intelligent automation via Apex & Flows
 
 > *This solution marks a significant step toward sustainable and smart farming — bridging the gap between traditional agriculture and modern cloud technology.*
 
